@@ -23,8 +23,7 @@
   <img src="https://github.com/celsopuerto/celsopuerto/blob/output/github-contribution-grid-snake-dark.svg" alt="snake gif" />
 </p>
 
-# 📊 GitHub Stats:
-![](https://github-readme-streak-stats.herokuapp.com/?user=celsopuerto&theme=radical&hide_border=true)<br/>
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=celsopuerto&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+|   |
+|---|
+| ![](https://github-readme-streak-stats.herokuapp.com/?user=celsopuerto&theme=radical&hide_border=true) |
+| ![](https://github-profile-trophy.vercel.app/?username=celsopuerto&theme=radical&no-frame=true&no-bg=false&margin-w=4) |
