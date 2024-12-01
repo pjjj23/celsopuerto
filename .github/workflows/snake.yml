@@ -22,6 +22,15 @@ jobs:
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
+      # Ensure the dist directory exists and contains the output
+      - name: Check dist directory
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "dist directory does not exist, creating it."
+            mkdir dist
+          fi
+          ls dist  # List the contents of dist to verify the files are there
+
       # Push the changes to the repository
       - name: Push changes
         uses: ad-m/github-push-action@master
