@@ -27,4 +27,4 @@
 ![](https://github-profile-trophy.vercel.app/?username=celsopuerto&theme=radical&no-frame=true&no-bg=false&margin-w=4)
 
 ## Snake Eatitng My Contribution Graph
-![snake gif](https://github.com/celsopuerto/celsopuerto/blob/output/github-contribution-grid-snake.gif)
+![snake gif](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake-dark.svg)
