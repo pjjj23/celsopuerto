@@ -17,9 +17,9 @@
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/bitterfuck_) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/kitten.inheat69) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/celsopuerto) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/celsopuerto) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@celsotrash) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/celsopuerto) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/celsopuerto) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@celsopuerto) 
-
+<br>
+<h1 align="center">🐍 Contribution Snake</h1>
 <p align="center">
-  <h2 align="center">🐍 Contribution Snake</h2>
   <img src="https://github.com/celsopuerto/celsopuerto/blob/output/github-contribution-grid-snake-dark.svg" alt="snake gif" />
 </p>
 
