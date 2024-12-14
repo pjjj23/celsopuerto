@@ -1,5 +1,5 @@
 # 👋 Hey there! I’m Celso Puerto  
-👨‍💻 **Aspiring Full-stack Developer** <br/>
+👨‍💻 **Full-stack Developer** <br/>
 🎓 Studying Bachelor of Science in Information Technology in **Cebu Technological University - Argao Campus**, Philippines.  
 🚀 **Web Development Enthusiast:** I love designing and developing user-friendly applications.  
 🌱 **Always Learning:** Currently diving deeper into **React** and **Django REST Framework** to sharpen my full-stack development skills.  
