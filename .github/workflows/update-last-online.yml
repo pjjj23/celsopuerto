@@ -15,7 +15,7 @@ jobs:
 
       - name: Update JSON File
         run: |
-          current_date=$(date "+%B %d, %Y")
+          current_date=$(date "+%B %d, %Y at %H:%M:%S")
           echo "{
             \"schemaVersion\": 1,
             \"label\": \"Last Online\",
@@ -23,10 +23,16 @@ jobs:
             \"color\": \"blue\"
           }" > last_online.json
 
+      - name: Check for Changes
+        run: |
+          echo "Checking for changes..."
+          git status
+
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add last_online.json
-          git commit -m "Updated Last Online Badge"
-          git push
+          git diff --staged # Show staged changes
+          git commit -m "Updated Last Online Badge" || echo "No changes to commit"
+          git push || echo "Nothing to push, changes already up-to-date"
