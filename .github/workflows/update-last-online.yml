@@ -17,7 +17,7 @@ jobs:
         id: elapsed-time
         run: |
           # Get the last commit timestamp
-          last_commit_time=$(git log -1 --format=%ct)
+          last_commit_time=$(git log -1 --format=%ct || echo "0")
           current_time=$(date +%s)
           elapsed_seconds=$((current_time - last_commit_time))
 
@@ -29,9 +29,15 @@ jobs:
           # Format the elapsed time
           elapsed="last ${days}d ${hours}hrs ${minutes}mins"
           echo "elapsed_time=$elapsed" >> $GITHUB_ENV
+          echo "$elapsed" > elapsed_time.txt
+
+      - name: Display Elapsed Time (Debug)
+        run: |
+          echo "Elapsed Time: ${{ env.elapsed_time }}"
 
       - name: Update JSON File
         run: |
+          elapsed_time=$(cat elapsed_time.txt)
           echo "{
             \"schemaVersion\": 1,
             \"label\": \"Last Online\",
