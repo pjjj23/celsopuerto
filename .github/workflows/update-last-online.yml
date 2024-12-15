@@ -24,9 +24,7 @@ jobs:
           }" > last_online.json
 
       - name: Check for Changes
-        run: |
-          echo "Checking for changes..."
-          git status
+        run: git status
 
       - name: Commit and Push Changes
         run: |
