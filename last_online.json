@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "label": "Last Online",
-  "message": "December 15, 2024",
-  "color": "blue"
+    "schemaVersion": 1,
+    "label": "Last Online",
+    "message": "last 30d 75hrs 38mins",
+    "color": "blue"
 }
