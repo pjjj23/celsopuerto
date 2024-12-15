@@ -1,0 +1,32 @@
+name: Update Last Online Badge
+
+on:
+  schedule:
+    # Run daily
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Update JSON File
+        run: |
+          current_date=$(date "+%B %d, %Y")
+          echo "{
+            \"schemaVersion\": 1,
+            \"label\": \"Last Online\",
+            \"message\": \"$current_date\",
+            \"color\": \"blue\"
+          }" > last_online.json
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add last_online.json
+          git commit -m "Updated Last Online Badge"
+          git push
