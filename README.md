@@ -10,7 +10,7 @@
 ✨ Let’s innovate and create amazing things together! 🌐
 My leetcode https://leetcode.com/u/celsopuerto/
 
-[![](https://visitcount.itsvg.in/api?id=celsopuerto&icon=10&color=10)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=celsopuerto&icon=10&color=10)](https://visitcount.itsvg.in) ![Last Online](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/USERNAME/REPO/main/last_online.json)
 ---
 
 <div align="center">
